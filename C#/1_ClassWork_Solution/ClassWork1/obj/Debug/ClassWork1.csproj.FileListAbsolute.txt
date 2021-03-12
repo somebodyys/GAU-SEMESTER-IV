@@ -1,0 +1,10 @@
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\ClassWork1\bin\Debug\ClassWork1.exe.config
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\ClassWork1\bin\Debug\ClassWork1.exe
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\ClassWork1\bin\Debug\ClassWork1.pdb
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\ClassWork1\obj\Debug\ClassWork1.csprojAssemblyReference.cache
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\ClassWork1\obj\Debug\ClassWork1.csproj.CoreCompileInputs.cache
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\ClassWork1\obj\Debug\ClassWork1.exe
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\ClassWork1\obj\Debug\ClassWork1.pdb
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\ClassWork1\bin\Debug\1_ClassWork_Functions.dll
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\ClassWork1\bin\Debug\1_ClassWork_Functions.pdb
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\ClassWork1\obj\Debug\ClassWork1.csproj.CopyComplete

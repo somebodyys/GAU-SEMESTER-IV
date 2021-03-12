@@ -1,0 +1,6 @@
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\1_ClassWork_Functions\bin\Debug\1_ClassWork_Functions.dll
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\1_ClassWork_Functions\bin\Debug\1_ClassWork_Functions.pdb
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\1_ClassWork_Functions\obj\Debug\ClassWork1_Functions.csproj.CoreCompileInputs.cache
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\1_ClassWork_Functions\obj\Debug\1_ClassWork_Functions.dll
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\1_ClassWork_Functions\obj\Debug\1_ClassWork_Functions.pdb
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\1_ClassWork_Functions\obj\Debug\ClassWork1_Functions.csprojAssemblyReference.cache
