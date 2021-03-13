@@ -1,0 +1,86 @@
+#wrapper{
+    margin: auto;
+    width: 700px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px blue;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h4{
+    text-align: center;
+}
+
+.error{
+    color: red;
+    font-size: 8px;
+}
+textarea{
+    resize: none;
+}
+form{
+    width: 95%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#personal{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#personal div{
+    text-align: right;
+    margin-top: 5px;
+}
+
+.inner{
+    height: 50px;
+}
+
+#personal input{
+    width: 120px;
+}
+
+form label{
+    font-size: 14px;
+}
+#gender_wrap{
+    width: 100%;
+    text-align: left;
+}
+
+
+.display{
+    border: solid 1px black;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 40px;
+}
+
+td, th{
+    border: solid 1px black;
+    padding: 10px;
+}
+
+th{
+    font-weight: bold;
+}
+
+
