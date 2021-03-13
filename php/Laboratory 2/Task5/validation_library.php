@@ -1,6 +1,6 @@
 <?php
 
-function set($collection, $key_array, $value_array){
+    function set($collection, $key_array, $value_array){
         for($i = 0; $i < sizeof($key_array); $i++){
             $collection[$key_array[$i]] = $value_array[$i];
         }
