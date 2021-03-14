@@ -1,0 +1,13 @@
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\TriangleCheckForm\bin\Debug\TriangleCheckForm.exe.config
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\TriangleCheckForm\bin\Debug\TriangleCheckForm.exe
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\TriangleCheckForm\bin\Debug\TriangleCheckForm.pdb
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\TriangleCheckForm\bin\Debug\1_ClassWork_Functions.dll
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\TriangleCheckForm\bin\Debug\1_ClassWork_Functions.pdb
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\TriangleCheckForm\obj\Debug\TriangleCheckForm.csprojAssemblyReference.cache
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\TriangleCheckForm\obj\Debug\TriangleCheckForm.Form1.resources
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\TriangleCheckForm\obj\Debug\TriangleCheckForm.Properties.Resources.resources
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\TriangleCheckForm\obj\Debug\TriangleCheckForm.csproj.GenerateResource.cache
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\TriangleCheckForm\obj\Debug\TriangleCheckForm.csproj.CoreCompileInputs.cache
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\TriangleCheckForm\obj\Debug\TriangleCheckForm.csproj.CopyComplete
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\TriangleCheckForm\obj\Debug\TriangleCheckForm.exe
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\TriangleCheckForm\obj\Debug\TriangleCheckForm.pdb

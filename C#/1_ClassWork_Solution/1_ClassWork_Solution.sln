@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWork1", "ClassWork1\Cl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassWork1_Functions_Library", "1_ClassWork_Functions\ClassWork1_Functions_Library.csproj", "{2E9076DD-9B54-4346-B2B6-42F55FD96D0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleCheckForm", "TriangleCheckForm\TriangleCheckForm.csproj", "{B1B436A4-7198-4CE8-81CF-BAC16FEE4AA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixUpperSumForm", "MatrixUpperSumForm\MatrixUpperSumForm.csproj", "{E92F92CA-4DA0-47CD-A5B5-A1A755B69AB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{2E9076DD-9B54-4346-B2B6-42F55FD96D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E9076DD-9B54-4346-B2B6-42F55FD96D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E9076DD-9B54-4346-B2B6-42F55FD96D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B436A4-7198-4CE8-81CF-BAC16FEE4AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B436A4-7198-4CE8-81CF-BAC16FEE4AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B436A4-7198-4CE8-81CF-BAC16FEE4AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B436A4-7198-4CE8-81CF-BAC16FEE4AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E92F92CA-4DA0-47CD-A5B5-A1A755B69AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E92F92CA-4DA0-47CD-A5B5-A1A755B69AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E92F92CA-4DA0-47CD-A5B5-A1A755B69AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E92F92CA-4DA0-47CD-A5B5-A1A755B69AB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,13 @@
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\MatrixUpperSumForm\bin\Debug\MatrixUpperSumForm.exe.config
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\MatrixUpperSumForm\bin\Debug\MatrixUpperSumForm.exe
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\MatrixUpperSumForm\bin\Debug\MatrixUpperSumForm.pdb
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\MatrixUpperSumForm\bin\Debug\1_ClassWork_Functions.dll
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\MatrixUpperSumForm\bin\Debug\1_ClassWork_Functions.pdb
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\MatrixUpperSumForm\obj\Debug\MatrixUpperSumForm.csprojAssemblyReference.cache
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\MatrixUpperSumForm\obj\Debug\MatrixUpperSumForm.Form1.resources
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\MatrixUpperSumForm\obj\Debug\MatrixUpperSumForm.Properties.Resources.resources
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\MatrixUpperSumForm\obj\Debug\MatrixUpperSumForm.csproj.GenerateResource.cache
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\MatrixUpperSumForm\obj\Debug\MatrixUpperSumForm.csproj.CoreCompileInputs.cache
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\MatrixUpperSumForm\obj\Debug\MatrixUpperSumForm.csproj.CopyComplete
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\MatrixUpperSumForm\obj\Debug\MatrixUpperSumForm.exe
+T:\University\GAU-SEMESTER-IV\C#\1_ClassWork_Solution\MatrixUpperSumForm\obj\Debug\MatrixUpperSumForm.pdb

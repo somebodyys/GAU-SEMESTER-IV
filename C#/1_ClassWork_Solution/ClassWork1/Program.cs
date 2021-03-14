@@ -9,14 +9,10 @@ namespace ClassWork1
 {
     class Program
     {
-
         static void Main(string[] args)
         {
             try
             {
-
-
-
                 //2.1.31
                 float a, b, c;
                 Console.Write($"Enter a : ");
@@ -83,7 +79,7 @@ namespace ClassWork1
                 {
                     Console.Write($"{num} ");
                 }
-
+                Console.WriteLine();
                 //4.2.81
                 Console.WriteLine($"\nTask 4.2.81 Result : {Tasks.task_4_2_81(myData)}");
             }
