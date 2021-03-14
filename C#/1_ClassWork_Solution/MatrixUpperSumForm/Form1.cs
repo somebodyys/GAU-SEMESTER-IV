@@ -84,11 +84,20 @@ namespace MatrixUpperSumForm
 
         private void resetButton_Click(object sender, EventArgs e)
         {
-            foreach(var cell in cells)
-                Controls.Remove(cell);
-            calculateSum.Enabled = false;
-            resultBox.Text = "";
-            cells.Clear();
+            try
+            {
+                foreach (var cell in cells)
+                    Controls.Remove(cell);
+                calculateSum.Enabled = false;
+                resultBox.Text = "";
+                cells.Clear();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+            
         }
     }
 }
