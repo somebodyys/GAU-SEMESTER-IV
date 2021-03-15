@@ -13,15 +13,17 @@ namespace ClassWork3
         private int b;
         private int c;
         private int d;
-        public GeoChild(int sideOne)
+        public GeoChild(int sideOne, int sideTwo, int sideThree, int sideFour)
         {
-
-
+            a = sideOne;
+            b = sideTwo;
+            c = sideThree;
+            d = sideFour;
         }
 
-        public override float Perimetri()
+        public override int Perimetri()
         {
-            
+            return a + b + c + d;
         }
     }
 }

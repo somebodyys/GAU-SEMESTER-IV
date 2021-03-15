@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="GeoChild.cs" />
     <Compile Include="GeometricFigure.cs" />
+    <Compile Include="Matrix.cs" />
+    <Compile Include="MatrixChild.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
