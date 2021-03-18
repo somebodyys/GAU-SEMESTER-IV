@@ -34,3 +34,6 @@ pt(t, size - 1)
 #b
 size <- length(myData$abortion_legalize)
 proportion <- length(myData$abortion_legalize[myData$abortion_legalize == "y"])/size
+pi <- 0.5
+z <- (proportion - pi)/sqrt(pi * (1 - pi)/size)
+result <- ifelse(z <= 0, pnorm(z)*2, 2*(1-pnorm(z)))
