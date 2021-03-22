@@ -1,0 +1,10 @@
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicTesting\bin\Debug\MusicTesting.exe.config
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicTesting\bin\Debug\MusicTesting.exe
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicTesting\bin\Debug\MusicTesting.pdb
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicTesting\bin\Debug\MusicLibrary.dll
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicTesting\bin\Debug\MusicLibrary.pdb
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicTesting\obj\Debug\MusicTesting.csprojAssemblyReference.cache
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicTesting\obj\Debug\MusicTesting.csproj.CoreCompileInputs.cache
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicTesting\obj\Debug\MusicTesting.csproj.CopyComplete
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicTesting\obj\Debug\MusicTesting.exe
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicTesting\obj\Debug\MusicTesting.pdb

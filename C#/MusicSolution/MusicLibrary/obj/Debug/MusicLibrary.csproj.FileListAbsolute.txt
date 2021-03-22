@@ -1,0 +1,6 @@
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicLibrary\bin\Debug\MusicLibrary.dll
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicLibrary\bin\Debug\MusicLibrary.pdb
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicLibrary\obj\Debug\MusicLibrary.csprojAssemblyReference.cache
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicLibrary\obj\Debug\MusicLibrary.csproj.CoreCompileInputs.cache
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicLibrary\obj\Debug\MusicLibrary.dll
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicLibrary\obj\Debug\MusicLibrary.pdb

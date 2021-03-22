@@ -1,0 +1,10 @@
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicMaker\bin\Debug\MusicMaker.exe.config
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicMaker\bin\Debug\MusicMaker.exe
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicMaker\bin\Debug\MusicMaker.pdb
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicMaker\obj\Debug\MusicMaker.csprojAssemblyReference.cache
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicMaker\obj\Debug\MusicMaker.Form1.resources
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicMaker\obj\Debug\MusicMaker.Properties.Resources.resources
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicMaker\obj\Debug\MusicMaker.csproj.GenerateResource.cache
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicMaker\obj\Debug\MusicMaker.csproj.CoreCompileInputs.cache
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicMaker\obj\Debug\MusicMaker.exe
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicMaker\obj\Debug\MusicMaker.pdb

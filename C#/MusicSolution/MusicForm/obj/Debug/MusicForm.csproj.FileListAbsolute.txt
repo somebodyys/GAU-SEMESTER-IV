@@ -1,0 +1,5 @@
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicForm\obj\Debug\MusicForm.Form1.resources
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicForm\obj\Debug\MusicForm.Properties.Resources.resources
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicForm\obj\Debug\MusicForm.csproj.GenerateResource.cache
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicForm\obj\Debug\MusicForm.csproj.CoreCompileInputs.cache
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MusicForm\obj\Debug\MusicForm.csprojAssemblyReference.cache

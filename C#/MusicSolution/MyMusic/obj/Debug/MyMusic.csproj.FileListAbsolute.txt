@@ -1,0 +1,9 @@
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MyMusic\bin\Debug\MyMusic.exe.config
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MyMusic\bin\Debug\MyMusic.exe
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MyMusic\bin\Debug\MyMusic.pdb
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MyMusic\obj\Debug\MyMusic.Form1.resources
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MyMusic\obj\Debug\MyMusic.Properties.Resources.resources
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MyMusic\obj\Debug\MyMusic.csproj.GenerateResource.cache
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MyMusic\obj\Debug\MyMusic.csproj.CoreCompileInputs.cache
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MyMusic\obj\Debug\MyMusic.exe
+T:\University\GAU-SEMESTER-IV\C#\MusicSolution\MyMusic\obj\Debug\MyMusic.pdb
