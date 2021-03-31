@@ -1,0 +1,43 @@
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 80%;
+    height: 650px;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px gray;
+}
+.error{
+    color: red;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+textarea{
+    resize: none;
+}
+input{
+    width: 300px;
+    
+}
+.inner{
+    width: 600px;
+    display: flex;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: greenyellow;
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(0, 85, 155);
+}
+
+button:hover{
+    background-color: rgb(127, 201, 16);
+}
