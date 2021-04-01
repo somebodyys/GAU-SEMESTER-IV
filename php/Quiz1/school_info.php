@@ -15,7 +15,7 @@
         $user_values = [
             'name_value' => "",
             'master_value' => "",
-            'date_value' => "",
+            'date_value' => date("Y-m-d", mktime(0,0,0,01,01,1800)),
             'code_value' => "",
             'adreess_value' => "",
             'registration_value' => date('m/d/Y'),
