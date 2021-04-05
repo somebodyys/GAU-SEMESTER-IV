@@ -1,0 +1,14 @@
+T:\University\GAU-SEMESTER-IV\C#\BonusWorkSolution\VisualForms\bin\Debug\VisualForms.exe.config
+T:\University\GAU-SEMESTER-IV\C#\BonusWorkSolution\VisualForms\bin\Debug\VisualForms.exe
+T:\University\GAU-SEMESTER-IV\C#\BonusWorkSolution\VisualForms\bin\Debug\VisualForms.pdb
+T:\University\GAU-SEMESTER-IV\C#\BonusWorkSolution\VisualForms\bin\Debug\BonusWork.exe
+T:\University\GAU-SEMESTER-IV\C#\BonusWorkSolution\VisualForms\bin\Debug\BonusWork.pdb
+T:\University\GAU-SEMESTER-IV\C#\BonusWorkSolution\VisualForms\bin\Debug\BonusWork.exe.config
+T:\University\GAU-SEMESTER-IV\C#\BonusWorkSolution\VisualForms\obj\Debug\VisualForms.csprojAssemblyReference.cache
+T:\University\GAU-SEMESTER-IV\C#\BonusWorkSolution\VisualForms\obj\Debug\VisualForms.Form1.resources
+T:\University\GAU-SEMESTER-IV\C#\BonusWorkSolution\VisualForms\obj\Debug\VisualForms.Properties.Resources.resources
+T:\University\GAU-SEMESTER-IV\C#\BonusWorkSolution\VisualForms\obj\Debug\VisualForms.csproj.GenerateResource.cache
+T:\University\GAU-SEMESTER-IV\C#\BonusWorkSolution\VisualForms\obj\Debug\VisualForms.csproj.CoreCompileInputs.cache
+T:\University\GAU-SEMESTER-IV\C#\BonusWorkSolution\VisualForms\obj\Debug\VisualForms.csproj.CopyComplete
+T:\University\GAU-SEMESTER-IV\C#\BonusWorkSolution\VisualForms\obj\Debug\VisualForms.exe
+T:\University\GAU-SEMESTER-IV\C#\BonusWorkSolution\VisualForms\obj\Debug\VisualForms.pdb

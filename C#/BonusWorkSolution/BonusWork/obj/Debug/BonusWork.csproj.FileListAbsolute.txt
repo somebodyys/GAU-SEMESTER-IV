@@ -1,0 +1,7 @@
+T:\University\GAU-SEMESTER-IV\C#\BonusWorkSolution\BonusWork\bin\Debug\BonusWork.exe.config
+T:\University\GAU-SEMESTER-IV\C#\BonusWorkSolution\BonusWork\bin\Debug\BonusWork.exe
+T:\University\GAU-SEMESTER-IV\C#\BonusWorkSolution\BonusWork\bin\Debug\BonusWork.pdb
+T:\University\GAU-SEMESTER-IV\C#\BonusWorkSolution\BonusWork\obj\Debug\BonusWork.csprojAssemblyReference.cache
+T:\University\GAU-SEMESTER-IV\C#\BonusWorkSolution\BonusWork\obj\Debug\BonusWork.csproj.CoreCompileInputs.cache
+T:\University\GAU-SEMESTER-IV\C#\BonusWorkSolution\BonusWork\obj\Debug\BonusWork.exe
+T:\University\GAU-SEMESTER-IV\C#\BonusWorkSolution\BonusWork\obj\Debug\BonusWork.pdb
