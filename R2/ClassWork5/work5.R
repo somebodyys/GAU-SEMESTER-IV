@@ -93,7 +93,12 @@ t <- (x1 - x2)/sqrt(s1^2 / n1 + s2^2 / n2)
 
 v = ((s1^2/n1 + s2^2/n2)^2)/((s1^2/n1)^2/(n1-1) + (s2^2/n2)^2/(n2-1))
 
-result <- ifelse(t <= 0, pt(t,v)*2, 1 - pt(t,v))
+result <- ifelse(t <= 0, pt(t,v)*2, (1 - pt(t,v))*2)
+
+
+pt(t,v)
+
+1- pt(t,v)
 
 
   

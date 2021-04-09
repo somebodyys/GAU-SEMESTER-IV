@@ -59,5 +59,21 @@ z <- (prop1 - prop2)/sqrt(p_bar*(1 - p_bar)*((1/n1)+(1/n2)))
 
 result <- (1-pnorm(z))
 
+#23
+n1 <- 630
+x1 <- n1 * 0.54
+n2 <- 1010
+x2 <- n2 * 0.51
+p1 <- x1/n1
+p2 <- x2/n2
+prop1 <- 0.54
+prop2 <- 0.51
+
+confidence <- 90
+tail <- (1 - confidence/100)/2 + confidence /100
+result <- (p1 - p2) + c(-1, 1) * qnorm(tail) * sqrt((p1*(1-p1)/n1)+(p2*(1-p2)/n2))
 
 
+p_bar <- ((prop1*n1) + (prop2*n2)) / (n1 + n2)
+z <- (prop1 - prop2)/sqrt(p_bar*(1 - p_bar)*((1/n1)+(1/n2)))
+result <- (1-pnorm(z))
