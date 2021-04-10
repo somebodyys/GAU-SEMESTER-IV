@@ -15,6 +15,7 @@
         if(isset($_POST['in'])){
             $file = fopen("storage/".date("Y-M-D-H-i-s").".txt", "w");
             fwrite($file, $_POST['in']);
+            fclose($file);
         }
     
     ?>
