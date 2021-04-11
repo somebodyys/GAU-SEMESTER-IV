@@ -50,6 +50,25 @@
 
             <div id="structure">
                 <?php
+                try{
+                    $undo = explode("/", $path);
+                    $new_path = "index.php?";
+                    for($i = 0; $i < count($undo) - 2; $i++){
+                        if(count($undo) > 3 && $i < count($undo) - 3){
+                            $new_path .=  $undo[$i]."/";
+                        }else{
+                            $new_path .=  $undo[$i];
+                        }
+                        
+                    } 
+                    if (count($undo) > 2) {
+                        $new_path .= "=".$undo[count($undo) - 2];
+                    }
+                }catch(Exception $ex){
+                    echo "<script>alert('Cant go any further!')</script>";
+                }
+
+                echo "<a href='$new_path'>[Back]</a>";
                 echo $path;
                 ?>
 
