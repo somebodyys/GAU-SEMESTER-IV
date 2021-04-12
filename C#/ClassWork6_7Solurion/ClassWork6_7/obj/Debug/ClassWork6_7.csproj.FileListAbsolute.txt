@@ -1,0 +1,7 @@
+T:\University\GAU-SEMESTER-IV\C#\ClassWork6_7Solurion\ClassWork6_7\bin\Debug\ClassWork6_7.exe.config
+T:\University\GAU-SEMESTER-IV\C#\ClassWork6_7Solurion\ClassWork6_7\bin\Debug\ClassWork6_7.exe
+T:\University\GAU-SEMESTER-IV\C#\ClassWork6_7Solurion\ClassWork6_7\bin\Debug\ClassWork6_7.pdb
+T:\University\GAU-SEMESTER-IV\C#\ClassWork6_7Solurion\ClassWork6_7\obj\Debug\ClassWork6_7.csprojAssemblyReference.cache
+T:\University\GAU-SEMESTER-IV\C#\ClassWork6_7Solurion\ClassWork6_7\obj\Debug\ClassWork6_7.csproj.CoreCompileInputs.cache
+T:\University\GAU-SEMESTER-IV\C#\ClassWork6_7Solurion\ClassWork6_7\obj\Debug\ClassWork6_7.exe
+T:\University\GAU-SEMESTER-IV\C#\ClassWork6_7Solurion\ClassWork6_7\obj\Debug\ClassWork6_7.pdb
