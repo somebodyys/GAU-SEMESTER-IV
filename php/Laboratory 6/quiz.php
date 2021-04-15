@@ -30,7 +30,7 @@
 
         <div class="question">
             <h3><?=$splitedQuestion[0]?></h3>
-
+            <input type="hidden" name="choice<?=$counter?>" value="0" checked>
             <input type="radio" name="choice<?=$counter?>" value="1"> <?=$splitedQuestion[1]?> <br>
             <input type="radio" name="choice<?=$counter?>" value="2"> <?=$splitedQuestion[2]?> <br>
             <input type="radio" name="choice<?=$counter?>" value="3"> <?=$splitedQuestion[3]?>

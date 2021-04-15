@@ -12,10 +12,15 @@
 <body>
 
     <?php
+        if(!is_dir("results")) mkdir("results");
+        $result = fopen("results/".date("Y_M_D_H_I_s"), "w");
         $score = 0;
         for($i = 0; $i < count($_POST)/2; $i++){
             if($_POST['choice'.$i] == $_POST['correct'.$i]) $score++;
+            fwrite($result, "Question $i { Choice : ".$_POST['choice'.$i]."  Correct : ".trim($_POST['correct'.$i])."} \n");
         }
+        fclose($result);
+        
         
         // echo "<pre>";
         // print_r($_POST);
@@ -25,7 +30,6 @@
     <div id="result">
         <h1>Thank you!</h1>
         <h3>Final Score : <?=$score?>/<?=count($_POST)/2?></h3>
-
     </div>
 
 

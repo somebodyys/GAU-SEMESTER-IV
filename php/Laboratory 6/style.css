@@ -55,14 +55,17 @@ td,th{
 #result{
     width: 300px;
     padding: 25px;
-    border: solid 1px red;
+    border-radius: 2px;
+    box-shadow: 0px 0px 15px palegreen;
     margin: auto;
 }
 
 #result h1{
     text-align: center;
+    color: chocolate;
 }
 
 #result h3{
     text-align: center;
+
 }
