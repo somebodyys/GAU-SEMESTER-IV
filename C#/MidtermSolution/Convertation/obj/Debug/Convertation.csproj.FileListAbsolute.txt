@@ -1,0 +1,6 @@
+T:\University\GAU-SEMESTER-IV\C#\MidtermSolution\Convertation\bin\Debug\Convertation.dll
+T:\University\GAU-SEMESTER-IV\C#\MidtermSolution\Convertation\bin\Debug\Convertation.pdb
+T:\University\GAU-SEMESTER-IV\C#\MidtermSolution\Convertation\obj\Debug\Convertation.csprojAssemblyReference.cache
+T:\University\GAU-SEMESTER-IV\C#\MidtermSolution\Convertation\obj\Debug\Convertation.csproj.CoreCompileInputs.cache
+T:\University\GAU-SEMESTER-IV\C#\MidtermSolution\Convertation\obj\Debug\Convertation.dll
+T:\University\GAU-SEMESTER-IV\C#\MidtermSolution\Convertation\obj\Debug\Convertation.pdb

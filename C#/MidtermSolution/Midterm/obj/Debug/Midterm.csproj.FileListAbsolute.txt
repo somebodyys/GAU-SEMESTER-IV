@@ -1,0 +1,10 @@
+T:\University\GAU-SEMESTER-IV\C#\MidtermSolution\Midterm\bin\Debug\Midterm.exe.config
+T:\University\GAU-SEMESTER-IV\C#\MidtermSolution\Midterm\bin\Debug\Midterm.exe
+T:\University\GAU-SEMESTER-IV\C#\MidtermSolution\Midterm\bin\Debug\Midterm.pdb
+T:\University\GAU-SEMESTER-IV\C#\MidtermSolution\Midterm\bin\Debug\Convertation.dll
+T:\University\GAU-SEMESTER-IV\C#\MidtermSolution\Midterm\bin\Debug\Convertation.pdb
+T:\University\GAU-SEMESTER-IV\C#\MidtermSolution\Midterm\obj\Debug\Midterm.csprojAssemblyReference.cache
+T:\University\GAU-SEMESTER-IV\C#\MidtermSolution\Midterm\obj\Debug\Midterm.csproj.CoreCompileInputs.cache
+T:\University\GAU-SEMESTER-IV\C#\MidtermSolution\Midterm\obj\Debug\Midterm.csproj.CopyComplete
+T:\University\GAU-SEMESTER-IV\C#\MidtermSolution\Midterm\obj\Debug\Midterm.exe
+T:\University\GAU-SEMESTER-IV\C#\MidtermSolution\Midterm\obj\Debug\Midterm.pdb
