@@ -11,65 +11,46 @@
 <body>
 
     <?php
-
-    
-
         if(!is_dir("storage")) mkdir("storage");
         if (isset($_POST['sub'])) {
             $myFile = $_FILES['myQuiz'];
             $inside = fopen($myFile['tmp_name'], "r");
             if(filesize($myFile['tmp_name']) > 0){
-
                 $check = true;
                 while(!feof($inside)){
-                    
-                    $starter = fgets($inside);
-                    
-                    if(trim($starter) != "==="){
-                        $check = false ;
-                        break;
-                    } 
-                    $question = fgets($inside);
-                    if($question == "") break;
-                    $a = fgets($inside);
-                
-                    if(substr($a, 0, 2) != "A)"){
-                        $check = false ;
-                        break;
-                    }
-                    $b = fgets($inside);
-                    
-                    if(substr($b, 0, 2) != "B)"){
-                        
-                        $check = false ;
-                        break;
-                    }
-
-                    $c = fgets($inside);
-                    
-                    if(substr($c, 0, 2) != "C)"){
-                        
-                        $check = false ;
-                        break;
-                    }
-
-                    $d = fgets($inside);
-                    
-                    if(substr($d, 0, 2) != "D)"){
-                        
-                        $check = false ;
-                        break;
+                    for ($i=0; $i < 6; $i++) { 
+                        $line = fgets($inside);
+                        if(empty($line)) break;
+                        echo "|".$line."|<br>";
+                        switch($i){
+                            case 0: 
+                                if(trim($line) != "===") $check = false;
+                                break;
+                            case 1:
+                                break;
+                            case 2:
+                                if(substr($line, 0, 2) != "A)") $check = false;
+                                break;
+                            case 3:
+                                if(substr($line, 0, 2) != "B)") $check = false;
+                                break;
+                            case 4:
+                                if(substr($line, 0, 2) != "C)") $check = false;
+                                break;
+                            case 5:
+                                if(substr($line, 0, 2) != "D)") $check = false;
+                                break;
+                        }
                     }
                 }
-
                 if($check){
                     move_uploaded_file($myFile['tmp_name'], "storage/".$myFile['name']);
                     echo "great, Right Format, Uploaded";
                 } else{
                     echo "Wrong Format";
                 }
-                
             }
+            fclose($inside);
         }
 
     ?>
