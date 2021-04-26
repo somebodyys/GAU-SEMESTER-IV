@@ -1,0 +1,16 @@
+D:\University\GAU-SEMESTER-IV\C#\ClassWork8Solution\ClassWork8\bin\Debug\net5.0\ClassWork8.exe
+D:\University\GAU-SEMESTER-IV\C#\ClassWork8Solution\ClassWork8\bin\Debug\net5.0\ClassWork8.deps.json
+D:\University\GAU-SEMESTER-IV\C#\ClassWork8Solution\ClassWork8\bin\Debug\net5.0\ClassWork8.runtimeconfig.json
+D:\University\GAU-SEMESTER-IV\C#\ClassWork8Solution\ClassWork8\bin\Debug\net5.0\ClassWork8.runtimeconfig.dev.json
+D:\University\GAU-SEMESTER-IV\C#\ClassWork8Solution\ClassWork8\bin\Debug\net5.0\ClassWork8.dll
+D:\University\GAU-SEMESTER-IV\C#\ClassWork8Solution\ClassWork8\bin\Debug\net5.0\ref\ClassWork8.dll
+D:\University\GAU-SEMESTER-IV\C#\ClassWork8Solution\ClassWork8\bin\Debug\net5.0\ClassWork8.pdb
+D:\University\GAU-SEMESTER-IV\C#\ClassWork8Solution\ClassWork8\obj\Debug\net5.0\ClassWork8.csprojAssemblyReference.cache
+D:\University\GAU-SEMESTER-IV\C#\ClassWork8Solution\ClassWork8\obj\Debug\net5.0\ClassWork8.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\GAU-SEMESTER-IV\C#\ClassWork8Solution\ClassWork8\obj\Debug\net5.0\ClassWork8.AssemblyInfoInputs.cache
+D:\University\GAU-SEMESTER-IV\C#\ClassWork8Solution\ClassWork8\obj\Debug\net5.0\ClassWork8.AssemblyInfo.cs
+D:\University\GAU-SEMESTER-IV\C#\ClassWork8Solution\ClassWork8\obj\Debug\net5.0\ClassWork8.csproj.CoreCompileInputs.cache
+D:\University\GAU-SEMESTER-IV\C#\ClassWork8Solution\ClassWork8\obj\Debug\net5.0\ClassWork8.dll
+D:\University\GAU-SEMESTER-IV\C#\ClassWork8Solution\ClassWork8\obj\Debug\net5.0\ref\ClassWork8.dll
+D:\University\GAU-SEMESTER-IV\C#\ClassWork8Solution\ClassWork8\obj\Debug\net5.0\ClassWork8.pdb
+D:\University\GAU-SEMESTER-IV\C#\ClassWork8Solution\ClassWork8\obj\Debug\net5.0\ClassWork8.genruntimeconfig.cache
