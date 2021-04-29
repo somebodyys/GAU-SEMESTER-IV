@@ -54,7 +54,7 @@
     </form>
 
     <div id="result">
-        <div id="error"><?=$error?></div>
+        <div class="error"><?=$error?></div>
     </div>
 </body>
 
