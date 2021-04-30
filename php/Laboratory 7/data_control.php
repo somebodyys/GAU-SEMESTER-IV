@@ -45,7 +45,7 @@
             }
             $error = "Wrong Photo! Try Uploading Something else";
         } 
-    
+        
     ?>
     <h1>Data Control!</h1>
     <form action="?action=addData" method="post" id="dataEditor" enctype="multipart/form-data">
