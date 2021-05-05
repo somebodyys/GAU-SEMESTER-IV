@@ -1,0 +1,10 @@
+D:\University\GAU-SEMESTER-IV\C#\HomeWork6Solution\BuyToys\bin\Debug\BuyToys.exe.config
+D:\University\GAU-SEMESTER-IV\C#\HomeWork6Solution\BuyToys\bin\Debug\BuyToys.exe
+D:\University\GAU-SEMESTER-IV\C#\HomeWork6Solution\BuyToys\bin\Debug\BuyToys.pdb
+D:\University\GAU-SEMESTER-IV\C#\HomeWork6Solution\BuyToys\obj\Debug\BuyToys.csprojAssemblyReference.cache
+D:\University\GAU-SEMESTER-IV\C#\HomeWork6Solution\BuyToys\obj\Debug\BuyToys.Form1.resources
+D:\University\GAU-SEMESTER-IV\C#\HomeWork6Solution\BuyToys\obj\Debug\BuyToys.Properties.Resources.resources
+D:\University\GAU-SEMESTER-IV\C#\HomeWork6Solution\BuyToys\obj\Debug\BuyToys.csproj.GenerateResource.cache
+D:\University\GAU-SEMESTER-IV\C#\HomeWork6Solution\BuyToys\obj\Debug\BuyToys.csproj.CoreCompileInputs.cache
+D:\University\GAU-SEMESTER-IV\C#\HomeWork6Solution\BuyToys\obj\Debug\BuyToys.exe
+D:\University\GAU-SEMESTER-IV\C#\HomeWork6Solution\BuyToys\obj\Debug\BuyToys.pdb
