@@ -1,0 +1,10 @@
+D:\University\GAU-SEMESTER-IV\C#\HomeWork6Solution\MovingButton\obj\Debug\MovingButton.csprojAssemblyReference.cache
+D:\University\GAU-SEMESTER-IV\C#\HomeWork6Solution\MovingButton\obj\Debug\MovingButton.Form1.resources
+D:\University\GAU-SEMESTER-IV\C#\HomeWork6Solution\MovingButton\obj\Debug\MovingButton.Properties.Resources.resources
+D:\University\GAU-SEMESTER-IV\C#\HomeWork6Solution\MovingButton\obj\Debug\MovingButton.csproj.GenerateResource.cache
+D:\University\GAU-SEMESTER-IV\C#\HomeWork6Solution\MovingButton\obj\Debug\MovingButton.csproj.CoreCompileInputs.cache
+D:\University\GAU-SEMESTER-IV\C#\HomeWork6Solution\MovingButton\bin\Debug\MovingButton.exe.config
+D:\University\GAU-SEMESTER-IV\C#\HomeWork6Solution\MovingButton\bin\Debug\MovingButton.exe
+D:\University\GAU-SEMESTER-IV\C#\HomeWork6Solution\MovingButton\bin\Debug\MovingButton.pdb
+D:\University\GAU-SEMESTER-IV\C#\HomeWork6Solution\MovingButton\obj\Debug\MovingButton.exe
+D:\University\GAU-SEMESTER-IV\C#\HomeWork6Solution\MovingButton\obj\Debug\MovingButton.pdb
