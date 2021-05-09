@@ -1,0 +1,10 @@
+D:\University\GAU-SEMESTER-IV\C#\ThreadingPresentationSolution\ThreadingPresentation\bin\Debug\ThreadingPresentation.exe.config
+D:\University\GAU-SEMESTER-IV\C#\ThreadingPresentationSolution\ThreadingPresentation\bin\Debug\ThreadingPresentation.exe
+D:\University\GAU-SEMESTER-IV\C#\ThreadingPresentationSolution\ThreadingPresentation\bin\Debug\ThreadingPresentation.pdb
+D:\University\GAU-SEMESTER-IV\C#\ThreadingPresentationSolution\ThreadingPresentation\obj\Debug\ThreadingPresentation.csprojAssemblyReference.cache
+D:\University\GAU-SEMESTER-IV\C#\ThreadingPresentationSolution\ThreadingPresentation\obj\Debug\ThreadingPresentation.Form1.resources
+D:\University\GAU-SEMESTER-IV\C#\ThreadingPresentationSolution\ThreadingPresentation\obj\Debug\ThreadingPresentation.Properties.Resources.resources
+D:\University\GAU-SEMESTER-IV\C#\ThreadingPresentationSolution\ThreadingPresentation\obj\Debug\ThreadingPresentation.csproj.GenerateResource.cache
+D:\University\GAU-SEMESTER-IV\C#\ThreadingPresentationSolution\ThreadingPresentation\obj\Debug\ThreadingPresentation.csproj.CoreCompileInputs.cache
+D:\University\GAU-SEMESTER-IV\C#\ThreadingPresentationSolution\ThreadingPresentation\obj\Debug\ThreadingPresentation.exe
+D:\University\GAU-SEMESTER-IV\C#\ThreadingPresentationSolution\ThreadingPresentation\obj\Debug\ThreadingPresentation.pdb
