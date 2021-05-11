@@ -50,7 +50,8 @@ namespace ThreadingPresentation
                 logScreen.Text += $"user{i} Started Registration....\n";
                 User myUser = new User($"user{i}", $"last{i}", $"user{i}@gmail.com");
 
-                //myUser.Register();
+                myUser.Register();
+                /*
                 try
                 {
                     new Thread(myUser.Register).Start();
@@ -59,6 +60,7 @@ namespace ThreadingPresentation
                 {
                     MessageBox.Show(ex.Message);
                 }
+                */
                 
             }
         }
