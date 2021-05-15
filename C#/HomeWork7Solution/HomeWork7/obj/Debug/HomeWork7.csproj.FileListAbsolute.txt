@@ -1,0 +1,7 @@
+D:\University\GAU-SEMESTER-IV\C#\HomeWork7Solution\HomeWork7\bin\Debug\HomeWork7.exe.config
+D:\University\GAU-SEMESTER-IV\C#\HomeWork7Solution\HomeWork7\bin\Debug\HomeWork7.exe
+D:\University\GAU-SEMESTER-IV\C#\HomeWork7Solution\HomeWork7\bin\Debug\HomeWork7.pdb
+D:\University\GAU-SEMESTER-IV\C#\HomeWork7Solution\HomeWork7\obj\Debug\HomeWork7.csprojAssemblyReference.cache
+D:\University\GAU-SEMESTER-IV\C#\HomeWork7Solution\HomeWork7\obj\Debug\HomeWork7.csproj.CoreCompileInputs.cache
+D:\University\GAU-SEMESTER-IV\C#\HomeWork7Solution\HomeWork7\obj\Debug\HomeWork7.exe
+D:\University\GAU-SEMESTER-IV\C#\HomeWork7Solution\HomeWork7\obj\Debug\HomeWork7.pdb
