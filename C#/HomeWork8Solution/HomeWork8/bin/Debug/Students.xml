@@ -1,0 +1,72 @@
+<students>
+
+    <student>
+        <fname>Humaira</fname>
+        <lname>Lowry</lname>
+        <id>84335943906</id>
+        <status>Active</status>
+        <faculty>Innocent</faculty>
+        <birth>1976-07-09</birth>
+        <scores>
+            <score subject="Accounting">89</score>
+            <score subject="Design">56</score>
+            <score subject="Architecture">78</score>
+            <score subject="Manufacturing Engineering">12</score>
+            <score subject="Computer Science">32</score>
+            <score subject="Economics">51</score>
+        </scores>
+    </student>
+
+    <student>
+        <fname>Darnell</fname>
+        <lname>Young</lname>
+        <id>45270570593</id>
+        <status>Not Active</status>
+        <faculty>Polite</faculty>
+        <birth>1983-07-18</birth>
+        <scores>
+            <score subject="MBA">100</score>
+            <score subject="Design">40</score>
+            <score subject="Health and Fitness">76</score>
+            <score subject="Manufacturing Engineering">11</score>
+            <score subject="Beauty Therapy">86</score>
+            <score subject="Hairdressing">81</score>
+        </scores>
+    </student>
+
+    <student>
+        <fname>Michelle</fname>
+        <lname>Shepard</lname>
+        <id>69455098457</id>
+        <status>Active</status>
+        <faculty>Polite</faculty>
+        <birth>1985-10-10</birth>
+        <scores>
+            <score subject="Accounting">96</score>
+            <score subject="Aviation">87</score>
+            <score subject="Architecture">65</score>
+            <score subject="Catering">78</score>
+            <score subject="Computer Science">49</score>
+            <score subject="Food and Drink Production">53</score>
+        </scores>
+    </student>
+
+    <student>
+        <fname>Helen</fname>
+        <lname>Rodrigues</lname>
+        <id>27933997289</id>
+        <status>Active</status>
+        <faculty>Innocent</faculty>
+        <birth>1986-11-26</birth>
+        <scores>
+            <score subject="Counselling">79</score>
+            <score subject="Nursing">66</score>
+            <score subject="Architecture">33</score>
+            <score subject="Catering">27</score>
+            <score subject="Pharmacology">86</score>
+            <score subject="Public Health">63</score>
+        </scores>
+    </student>
+
+
+</students>
