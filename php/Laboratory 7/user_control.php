@@ -13,8 +13,25 @@
 <body>
     <?php
         $error = "";
-        $reg_date = date("Y-m-d");
+        $action = "?action=addUser";
+        $button_text = "Add User";
+
+        $first_name = "";
+        $last_name = "";
+        $user_age = "";
+        $birth = "";
+        $user_pass = "";
+        $sex = "";
+
+        $user_id = "";
+
+        $isMale = "selected";
+        $isFem = "";
+        
+
         if(isset($_GET['action']) && $_GET['action'] == "addUser" && isset($_POST['Name'])){
+            
+            $reg_date = date("Y-m-d");
             $fname = $_POST['Name'];
             $lname = $_POST['Lastname'];
             $age = $_POST['Age'];
@@ -27,26 +44,72 @@
             ";
             if(mysqli_query($conn, $user_query)) header("Location: user_control.php");
             $error = mysqli_error($conn);
+        }
+        
+        if(isset($_GET['action']) && $_GET['action'] == "updateUser"){
+            $fname = $_POST['Name'];
+            $lname = $_POST['Lastname'];
+            $age = $_POST['Age'];
+            $date = $_POST['Date'];
+            $password = $_POST['Password'];
+            $gender = $_POST['Gender'];
+            $identification = $_POST['user_id'];
 
+            $update_query = "
+                UPDATE users
+                SET Name='$fname', Lastname='$lname', Age='$age', Date='$date', Password='$password', Gender='$gender'
+                WHERE Id='$identification';
+            ";
+
+            if(mysqli_query($conn, $update_query)){
+                header("location: data_editing.php");
+            }else{
+                echo "Error While Updating";
+            }
+
+        }
+
+        if(isset($_POST['editing'])){
+            $action = "?action=updateUser";
+            $button_text = "Update User";
+            $edit_id = $_POST['editing'];
+            $get_query = "
+                SELECT Id, Name, Lastname, Age, Date, Password, Gender
+                FROM users
+                WHERE Id = '$edit_id';
+            ";
+
+            $current_user = mysqli_fetch_assoc(mysqli_query($conn, $get_query));
+
+            $user_id = $current_user['Id'];
+            $first_name = $current_user['Name'];
+            $last_name = $current_user['Lastname'];
+            $user_age = $current_user['Age'];
+            $birth = $current_user['Date'];
+            $user_pass = $current_user['Password'];
+            $sex = $current_user['Gender'];
+            $isMale = $sex == "Male" ? "selected" : "";
+            $isFem = $sex == "Female" ? "selected" : ""; 
         }
     
     ?>
 
     <h1>User Control!</h1>
-    <form action="?action=addUser" method="post" id="userEditor">
-        <input type="text" name="Name" placeholder="First Name" required>
-        <input type="text" name="Lastname" placeholder="Last Name" required>
-        <input type="number" name="Age" placeholder="Age" required>
-        <input type="date" name="Date" required>
-        <input type="password" name="Password" placeholder="PassWord" required>
+    <form action="<?=$action?>" method="post" id="userEditor">
+        <input type="text" name="Name" value="<?=$first_name?>" placeholder="First Name" required>
+        <input type="text" name="Lastname" value="<?=$last_name?>" placeholder="Last Name" required>
+        <input type="number" name="Age" value="<?=$user_age?>" placeholder="Age" required>
+        <input type="date" name="Date" value="<?=$birth?>" required>
+        <input type="hidden" name="user_id" value="<?=$user_id?>">
+        <input type="password" name="Password" value="<?=$user_pass?>" placeholder="PassWord" required>
 
 
         <div id="sub">
             <select name="Gender" required>
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
+                <option value="Male" <?=$isMale?>>Male</option>
+                <option value="Female" <?=$isFem?>>Female</option>
             </select>
-            <button>Add User</button>
+            <button><?=$button_text?></button>
         </div>
         
     </form>
