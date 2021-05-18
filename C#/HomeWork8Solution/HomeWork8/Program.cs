@@ -66,7 +66,7 @@ namespace HomeWork8
                }
                 return "";
             }
-            
+          
             
             public string Info()
                 => $"{this}Birth Date : {birth_date}\nStudent Status : {stud_status}\nFaculty : {faculty}\n\nScores -> \n{GetScores()}\n\n******************\n";
