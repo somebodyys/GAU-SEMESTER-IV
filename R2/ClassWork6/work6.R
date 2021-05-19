@@ -13,6 +13,12 @@ confidence <- 90
 tail <- (1 - confidence/100)/2 + confidence /100
 conf_inter <- D_mean + c(-1, 1) * qt(tail, size - 1) * test_sd / sqrt(size)
 
+#hypothesis
+mD <- 0
+t <- (D_mean - mD)*sqrt(size)/(test_sd)
+1 - pt(t, size - 1)
+ifelse(t <= 0, 2*pt(t, size - 1), 2*(1 - pt(t, size - 1)))
+
 #26 
 myData <- read.csv("26.csv")
 
@@ -31,6 +37,8 @@ conf_inter <- D_mean + c(-1, 1) * qt(tail, size - 1) * test_sd / sqrt(size)
 mD <- 0
 t <- (D_mean - mD)*sqrt(size)/(test_sd)
 1 - pt(t, size - 1)
+
+
 
 
 t.test(myData$Sexual.Image, myData$No.Sex, paired=TRUE, alt="two.sided")

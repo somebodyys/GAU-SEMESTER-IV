@@ -11,7 +11,15 @@ plot(
 #correlation coefficient
 cor(strengthData$GRIP, strengthData$ARM)
 
+#hypothesis
+sig <- 0.01
+corel <- cor(strengthData$GRIP, strengthData$ARM)
+size <- nrow(strengthData)
+t <- (corel* sqrt(size - 2))/sqrt(1 - corel * corel)
+result <- ifelse(t <= 0, pt(t, size - 2) * 2, 2 * (1 - pt(t, size - 2)))
+ifelse(sig > result, "Reject", "Can't Reject")
 
+cor.test(strengthData$GRIP, strengthData$ARM)
 
 #9
 broken <- c(0,1,1,0,0,2,0,1,1,1,1,3,1,2,3,2,2,3,2,4,5,4,5,6)
