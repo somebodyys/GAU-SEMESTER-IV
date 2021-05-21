@@ -12,6 +12,31 @@ function getContent(pageName){
     });
 }
 
+function userRegister(){
+    var username = $("#user_name").val();
+    var email = $("#user_email").val();
+    var password = $("#user_password").val();
+    console.log(username);
+    if(username != "" && email != "" && password != ""){
+        $.ajax({
+            type:"post",
+            url: "actions.php",
+            data:{
+                reason: "register",
+                user_name: username,
+                user_email: email,
+                user_password: password
+            },
+            success :function(responce){
+                $("#addResponse").html(responce);
+            }
+        })
+    }else{
+        $("#addResponse").html("No Empty Fields");
+    }
+    
+}
+
 function getPosts(){
 
     $.ajax({
