@@ -24,6 +24,22 @@
         }
     }
 
+    if(isset($_POST['reason']) && $_POST['reason'] == "update"){
+
+        $product_id = $_POST['product_id'];
+        $product_name = $_POST['product_name'];
+        $product_price = $_POST['product_price'];
+        $product_count = $_POST['product_count'];
+        $product_description = $_POST['product_description'];
+        $product_maker = $_POST['product_maker'];
+        $myQuery = "
+            UPDATE products
+            SET product_name = '$product_name', product_price='$product_price', product_count = '$product_count', product_description = '$product_description', product_maker = '$product_maker' 
+            WHERE product_id = '$product_id'
+        ";
+        mysqli_query($conn, $myQuery);
+    }
+
     if(isset($_POST['reason']) && $_POST['reason'] == "products"){
         $productQuery = "
             SELECT * 

@@ -41,6 +41,21 @@ function getPosts(){
     })
 }
 
+function update(id){
+    $.ajax({
+        type:"post",
+        url: "Components/update.php",
+        data: {
+            reason: "update",
+            product_id : id
+        },
+        success: function(responce){
+            $('#content').html(responce);
+        }
+        
+    })
+}
+
 
 function remove(id){
     
@@ -51,10 +66,38 @@ function remove(id){
             reason: "delete",
             product_id : id 
         },
-        success: function(responce){
+        success: function(){
             getPosts();
         }
     })
+}
+
+function updateProduct(){
+    var id = $('#id').val();
+    var name = $('#prname').val();
+    var price = $('#prprice').val();
+    var count = $('#prcount').val();
+    var desc = $('#prdes').val();
+    var maker = $('#prmaker').val();
+
+    if(name != ""){
+        $.ajax({
+            type:"post",
+            url:"actions.php",
+            data: {
+                reason:"update",
+                product_id: id,
+                product_name: name,
+                product_price: price,
+                product_count: count,
+                product_description: desc,
+                product_maker: maker
+            },
+            success: function(responce){
+                getContent('posts.php');
+            }
+        });
+    }
 }
 
 
