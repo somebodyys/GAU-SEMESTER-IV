@@ -1,0 +1,55 @@
+nav{
+    padding: 15px;
+    background: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+body{
+    margin: 0;
+}
+
+nav div{
+    padding: 15px;
+    background: beige;
+    border-radius: 15px;
+}
+
+nav div:hover{
+    background: lightcoral;
+}
+
+#addWrap{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#addWrap input, textarea, button{
+    margin-bottom: 15px;
+    width: 250px;
+}
+
+#postWrap button {
+    width: 100px;
+    margin: 8px;
+}
+
+#postWrap table{
+    border-collapse: collapse;
+}
+#postWrap{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#postWrap td, th{
+    padding: 15px;
+    border: solid 1px black;
+}
