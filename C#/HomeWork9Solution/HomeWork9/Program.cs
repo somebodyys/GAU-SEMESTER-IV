@@ -19,7 +19,6 @@ namespace HomeWork9
         public static string[] Task_12_3_35(string word, string compare)
         {
             string[] splited = word.Split();
-            
             List<string> result = new List<string>();
             foreach (string item in splited)
             {
