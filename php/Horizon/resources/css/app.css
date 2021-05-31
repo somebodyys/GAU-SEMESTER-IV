@@ -1,0 +1,44 @@
+@font-face {
+    font-family: almaMono;
+    src: url(fonts/AlmaMono-Heavy.ttf);
+}
+@font-face{
+    font-family: BerlinSansFBRegular;
+    src: url(fonts/BerlinSansFBRegular.ttf);
+}
+
+header{
+    font-family: almaMono;
+    height: 50px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #176150;
+    color: white;
+}
+
+#logo, #control{
+    width: 45%;
+    height: 90%;
+    border: solid 1px red;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    border: solid 1px red;
+    position: absolute;
+    bottom: 0px;
+}
+
+body{
+    margin: 0;
+}

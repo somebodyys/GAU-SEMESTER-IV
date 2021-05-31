@@ -1,0 +1,342 @@
+@font-face {
+    font-family: almaMono;
+    src: url(/fonts/AlmaMono-Heavy.ttf?aad78003dada3a838a8b08114863392e);
+}
+@font-face{
+    font-family: BerlinSansFBRegular;
+    src: url(/fonts/BerlinSansFBRegular.ttf?dc095e60ae5e90312573d6969dced923);
+}
+
+#regForm{
+    width: 80%;
+    height: 600px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 2px 2px #176150;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.error{
+    border: none;
+    border-bottom: 2px solid #A50203;
+}
+
+.valid{
+    border: none;
+    border-bottom: 2px solid #176150;
+}
+
+
+.subButton{
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    font-family: almaMono;
+    border: 1px solid #176150;
+    background-color: #368371;
+    color: white;
+    outline: none;
+}
+
+.subButton:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #176150;
+    background-color: #0d4638;
+}
+
+#regForm input{
+    width: 350px;
+    height: 50px;
+    font-size: 25px;
+    font-family: BerlinSansFBRegular;
+    outline: none;
+    color: #176150;
+}
+
+#regForm h1{
+    color: #176150;
+    font-family: almaMono;
+    font-size: 35px;
+}
+
+#formCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    font-family: almaMono;
+    width: 100%;
+    height: 75px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    color: #176150;
+}
+
+#regWrap{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#preview, #formCont{
+    width: 50%;
+    height:820px;
+}
+
+#preview{
+    overflow:hidden;
+}
+
+#preview img{
+    height: 100%;
+    margin-left: -500px;
+}
+
+#cover-wrapper{
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+}
+
+#cover-wrapper img{
+    width: 100%;
+}
+
+#logo, #control{
+    width: 50%;
+    height: 90%;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    padding-left: 15px;
+}
+
+#logo a{
+    text-decoration: none;
+    color: #176150;
+}
+
+#control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#control nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#control nav a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: #176150;
+    padding: 7px;
+}
+
+#control nav a:hover{
+    border-bottom: 2px solid #176150;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: #176150;
+    color: white;
+    font-family: almaMono;
+    position: fixed;
+    bottom: 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+
+#remember{
+    width: 10px;
+}
+#rememberC{
+    font-family: almaMono;
+    color: #176150;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#postsWrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+
+.placeCont{
+    width: 380px;
+    height: 250px;
+    box-shadow: 0px 0px 7px gray;
+    border-radius: 25px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.cardLink:hover .placeCont{
+    box-shadow: 0px 0px 10px #176150;
+}
+
+a{
+    text-decoration: none;
+}
+
+.placeImg{
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+    position: relative;
+}
+
+.rating{
+    width: 80px;
+    height: 50px;
+    position: relative;
+    left: 75%;
+    top: 68%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ratingValue{
+    color: white;
+    width: 75%;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.ratingIcon{
+    width: 35%;
+    height: 100%;
+    padding-top: 21px;
+}
+
+.ratingIcon img{
+    width: 100%;
+}
+
+
+.placeImg img{
+    width: 100%;
+    margin-top: -120px;
+}
+
+.placeDetails{
+    height: 40%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.placeName{
+    width: 70%;
+    height: 90%;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.placeLocation{
+    color: #91A2A3;
+    font-family: BerlinSansFBRegular;
+}
+.placeHeading{
+    font-family: almaMono;
+    font-size: 25px;
+    color: #176150;
+}
+
+.placeInfo{
+    width: 20%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.placeDif, .placeLength{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.placeLenIcon img{
+    width: 60%;
+}
+
+.placeLenIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+}
+
+.placeDifVal, .placeDifIcon{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #91A2A3;
+    font-family: BerlinSansFBRegular;
+}
+
+.placeDifIcon div{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+.easy{
+    background-color: #176150;
+}
+
+.medium{
+    background-color: #CD6A38;
+}
+
+.hard{
+    background-color: #A50203;
+}
+
+.placeLength{
+    margin-top: 5px;
+}
