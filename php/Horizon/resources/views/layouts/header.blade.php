@@ -3,10 +3,9 @@
 <div id="control">
     <nav>
         <a href="{{ route('posts.index') }}">Discover</a>
-        <a href="">About</a>
         @auth
-            <a href="">{{ auth()->user()->name }}</a>
-            <a href="">Download</a>
+            <a href="{{ route('profile') }}">{{ auth()->user()->name }}</a>
+            <a href="{{ route('download') }}">Download</a>
             <a href="{{ route('logout') }}">Log out</a>
         @endauth
         @guest

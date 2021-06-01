@@ -4,8 +4,24 @@
     <div id="cover-wrapper">
         <img src="{{ asset('storage/Pictures/b48d2da5.png') }}" alt="">
     </div>
-
+    @auth
+        @if (auth()->user()->email == 'tkokikaca1@gmail.com')
+            <div class="contWrap">
+                <a href="posts/create">
+                    <div id="createPost">
+                        <img src="{{ asset('storage/Icons/add.png') }}" alt="">
+                    </div>
+                </a>
+            </div>
+            
+        @endif 
+    @endauth
+    
+    <div style="width:40%; margin:auto; margin-top:20px">
+        {{ $places->links() }}
+    </div>
     <div id="postsWrap">
+        
         @foreach ( $places as $place)
             <a class="cardLink" href="/posts/{{ $place['place_id'] }}">
                 <div class="placeCont">
@@ -65,7 +81,9 @@
     
                 </div>
             </a>
-            
         @endforeach
+        
+        
+        
     </div>
 @endsection

@@ -18,7 +18,7 @@ cor(myData$high_GPA, myData$univ_GPA)
 formula <- lm(myData$univ_GPA~myData$high_GPA)
 #3.3
 coeficients <- data.frame(coef(formula))$coef.formula.
-result <- coeficients[2] * 2.2 + coeficients[1]
+result <- coeficients[2] * 2.2 + coeficients[1] # y = kx+b
 #3.4
 coeficients <- data.frame(coef(formula))$coef.formula.
 result <- coeficients[2] * 4.0 + coeficients[1]
