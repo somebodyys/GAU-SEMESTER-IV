@@ -17,7 +17,7 @@
         @endif 
     @endauth
     
-    <div style="width:40%; margin:auto; margin-top:20px">
+    <div style="width:70%; margin:auto; margin-top:20px">
         {{ $places->links() }}
     </div>
     <div id="postsWrap">
