@@ -2,7 +2,7 @@ for (i in 2:15) {
   counter <- 0
   for (j in 1:1000) {
     items <- sample(1:6, i, replace = T)
-    if(length(as.set(items)) < i){
+    if(length(unique(items)) < i){
       counter <- counter + 1
     }
   }

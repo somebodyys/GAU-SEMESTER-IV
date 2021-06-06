@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<myDeposits>
+  <deposit>
+    <userGuid>a976b9a5-2064-4e82-acab-9f76fe10113a</userGuid>
+    <openDate>2021-06-06T16:05:27.6490404+04:00</openDate>
+    <depositAmount currency="LARI">100</depositAmount>
+    <depositPercent>3</depositPercent>
+  </deposit>
+  <deposit>
+    <userGuid>a976b9a5-2064-4e82-acab-9f76fe10113a</userGuid>
+    <openDate>2021-06-06T16:13:18.947724+04:00</openDate>
+    <depositAmount currency="USD">100</depositAmount>
+    <depositPercent>4</depositPercent>
+  </deposit>
+</myDeposits>

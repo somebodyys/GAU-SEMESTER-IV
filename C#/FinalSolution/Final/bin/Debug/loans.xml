@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<myLoans>
+  <loan>
+    <userGuid>e5ad6872-ebfb-4e4f-b697-2767cb95aeec</userGuid>
+    <openDate>2021-06-06T18:00:56.8654549+04:00</openDate>
+    <loanAmount currency="LARI">677</loanAmount>
+    <loanPercent>4</loanPercent>
+    <loanRoot>554</loanRoot>
+    <loanDueDate>2021-07-16T18:00:07</loanDueDate>
+    <office>Office1</office>
+  </loan>
+  <loan>
+    <userGuid>e5ad6872-ebfb-4e4f-b697-2767cb95aeec</userGuid>
+    <openDate>2021-06-06T18:20:59.2081487+04:00</openDate>
+    <loanAmount currency="LARI">123</loanAmount>
+    <loanPercent>2</loanPercent>
+    <loanRoot>222</loanRoot>
+    <loanDueDate>2021-06-06T18:20:41.0385735+04:00</loanDueDate>
+    <office>Office1</office>
+  </loan>
+  <loan>
+    <userGuid>e5ad6872-ebfb-4e4f-b697-2767cb95aeec</userGuid>
+    <openDate>2021-06-06T18:30:25.9115219+04:00</openDate>
+    <loanAmount currency="LARI">554</loanAmount>
+    <loanPercent>3</loanPercent>
+    <loanRoot>23</loanRoot>
+    <loanDueDate>2021-06-06T18:30:06.9463532+04:00</loanDueDate>
+    <office>Office3</office>
+  </loan>
+  <loan>
+    <userGuid>e5ad6872-ebfb-4e4f-b697-2767cb95aeec</userGuid>
+    <openDate>2021-06-06T18:33:31.4474706+04:00</openDate>
+    <loanAmount currency="LARI">344</loanAmount>
+    <loanPercent>3</loanPercent>
+    <loanRoot>3</loanRoot>
+    <loanDueDate>2021-06-06T18:33:07.8596069+04:00</loanDueDate>
+    <office>Office2</office>
+  </loan>
+  <loan>
+    <userGuid>96746d1f-b097-4aea-ba2c-4cc2663b7d93</userGuid>
+    <openDate>2021-06-06T18:41:12.7455944+04:00</openDate>
+    <loanAmount currency="EURO">444</loanAmount>
+    <loanPercent>5</loanPercent>
+    <loanRoot>122</loanRoot>
+    <loanDueDate>2021-07-11T18:40:02</loanDueDate>
+    <office>Office2</office>
+  </loan>
+  <loan>
+    <userGuid>79132139-f3fd-4362-9fd0-89aee9ddac3c</userGuid>
+    <openDate>2021-06-06T18:41:43.1124389+04:00</openDate>
+    <loanAmount currency="LARI">33</loanAmount>
+    <loanPercent>5</loanPercent>
+    <loanRoot>2</loanRoot>
+    <loanDueDate>2021-07-11T18:40:02</loanDueDate>
+    <office>Office1</office>
+  </loan>
+</myLoans>
