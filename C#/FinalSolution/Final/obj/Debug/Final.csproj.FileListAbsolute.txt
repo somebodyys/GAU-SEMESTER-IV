@@ -1,10 +1,10 @@
 D:\University\GAU-SEMESTER-IV\C#\FinalSolution\Final\bin\Debug\Final.exe.config
 D:\University\GAU-SEMESTER-IV\C#\FinalSolution\Final\bin\Debug\Final.exe
 D:\University\GAU-SEMESTER-IV\C#\FinalSolution\Final\bin\Debug\Final.pdb
-D:\University\GAU-SEMESTER-IV\C#\FinalSolution\Final\obj\Debug\Final.csprojAssemblyReference.cache
 D:\University\GAU-SEMESTER-IV\C#\FinalSolution\Final\obj\Debug\Final.bankForm.resources
 D:\University\GAU-SEMESTER-IV\C#\FinalSolution\Final\obj\Debug\Final.Properties.Resources.resources
 D:\University\GAU-SEMESTER-IV\C#\FinalSolution\Final\obj\Debug\Final.csproj.GenerateResource.cache
 D:\University\GAU-SEMESTER-IV\C#\FinalSolution\Final\obj\Debug\Final.csproj.CoreCompileInputs.cache
 D:\University\GAU-SEMESTER-IV\C#\FinalSolution\Final\obj\Debug\Final.exe
 D:\University\GAU-SEMESTER-IV\C#\FinalSolution\Final\obj\Debug\Final.pdb
+D:\University\GAU-SEMESTER-IV\C#\FinalSolution\Final\obj\Debug\Final.csproj.AssemblyReference.cache

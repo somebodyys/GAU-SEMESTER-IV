@@ -211,7 +211,7 @@ namespace Final
 
         private void topFilter_Click(object sender, EventArgs e)
         {
-            decimal compNum = topFilterVal.Value;
+            int compNum = Convert.ToInt32(topFilterVal.Value);
             XDocument xdeposit = XDocument.Load("loans.xml");
             var loanList = xdeposit.Root.Descendants("loan")
                 .Select(dep =>
@@ -226,7 +226,8 @@ namespace Final
                         LoanDue = dep.Element("loanDueDate").Value
                     }
                 )
-                .Where(item => Convert.ToDecimal(item.LoanRoot) > compNum)
+                .OrderByDescending(r => r.LoanRoot)
+                .Take(compNum)
                 .ToList();
 
             loanGrid.DataSource = loanList;
