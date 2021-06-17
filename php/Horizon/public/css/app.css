@@ -2,12 +2,13 @@
     font-family: almaMono;
     src: url(/fonts/AlmaMono-Heavy.ttf?aad78003dada3a838a8b08114863392e);
 }
-@font-face{
+
+@font-face {
     font-family: BerlinSansFBRegular;
     src: url(/fonts/BerlinSansFBRegular.ttf?dc095e60ae5e90312573d6969dced923);
 }
 
-#regForm{
+#regForm {
     width: 80%;
     height: 600px;
     border-radius: 25px;
@@ -18,7 +19,7 @@
     flex-direction: column;
 }
 
-#createPost{
+#createPost {
     width: 100px;
     height: 100px;
     background-color: #176150;
@@ -28,36 +29,36 @@
     justify-content: center;
 }
 
-#createPost img{
+#createPost img {
     width: 70%;
 }
 
 
 
-#createPost:hover{
+#createPost:hover {
     box-shadow: 0px 0px 2px 2px #176150;
     background-color: #0d4638;
 }
 
-.contWrap{
+.contWrap {
     padding-top: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.error{
+.error {
     border: none;
     border-bottom: 2px solid #A50203;
 }
 
-.valid{
+.valid {
     border: none;
     border-bottom: 2px solid #176150;
 }
 
 
-.subButton{
+.subButton {
     width: 100px;
     height: 50px;
     border-radius: 15px;
@@ -68,13 +69,13 @@
     outline: none;
 }
 
-.subButton:hover{
+.subButton:hover {
     cursor: pointer;
     box-shadow: 0px 0px 10px #176150;
     background-color: #0d4638;
 }
 
-#regForm input{
+#regForm input {
     width: 100%;
     height: 50px;
     font-size: 25px;
@@ -83,26 +84,26 @@
     color: #176150;
 }
 
-.formTile{
+.formTile {
     width: 85%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#regForm h1{
+#regForm h1 {
     color: #176150;
     font-family: almaMono;
     font-size: 35px;
 }
 
-#formCont{
+#formCont {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-header{
+header {
     font-family: almaMono;
     width: 100%;
     height: 75px;
@@ -114,71 +115,73 @@ header{
     color: #176150;
 }
 
-#regWrap{
+#regWrap {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#detailPreview{
+#detailPreview {
     height: 500px;
     overflow: hidden;
     position: relative;
 }
 
-#detailPreview img{
+#detailPreview img {
     width: 100%;
     position: absolute;
     top: -100px;
 }
 
-#preview, #formCont{
+#preview,
+#formCont {
     width: 50%;
 }
 
-#preview{
-    overflow:hidden;
+#preview {
+    overflow: hidden;
 }
 
-#preview img{
+#preview img {
     width: 100%;
 }
 
-#cover-wrapper{
+#cover-wrapper {
     width: 100%;
     height: fit-content;
     overflow: hidden;
 }
 
-#cover-wrapper img{
+#cover-wrapper img {
     width: 100%;
 }
 
-#logo, #control{
+#logo,
+#control {
     width: 50%;
     height: 90%;
 }
 
-#logo{
+#logo {
     display: flex;
     align-items: center;
     font-size: 40px;
     padding-left: 15px;
 }
 
-#logo a{
+#logo a {
     text-decoration: none;
     color: #176150;
 }
 
-#control{
+#control {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#control nav{
+#control nav {
     width: 100%;
     height: 100%;
     display: flex;
@@ -186,7 +189,7 @@ header{
     justify-content: flex-end;
 }
 
-#control nav a{
+#control nav a {
     margin-left: 25px;
     text-decoration: none;
     color: #176150;
@@ -196,11 +199,11 @@ header{
     justify-content: center;
 }
 
-#control nav a:hover{
+#control nav a:hover {
     border-bottom: 2px solid #176150;
 }
 
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -214,17 +217,19 @@ footer{
     bottom: 0px;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     margin: 0px;
 }
 
-#remember{
+#remember {
     width: 10px;
 }
-#rememberC{
+
+#rememberC {
     font-family: almaMono;
     color: #176150;
     height: 20px;
@@ -234,7 +239,7 @@ body{
 }
 
 
-#postsWrap{
+#postsWrap {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -244,7 +249,7 @@ body{
 }
 
 
-.placeCont{
+.placeCont {
     width: 380px;
     height: 250px;
     box-shadow: 0px 0px 7px gray;
@@ -253,29 +258,29 @@ body{
     overflow: hidden;
 }
 
-.contWrap h1{
+.contWrap h1 {
     font-family: almaMono;
     color: #176150;
     font-size: 35px;
 }
 
 
-.cardLink:hover .placeCont{
+.cardLink:hover .placeCont {
     box-shadow: 0px 0px 10px #176150;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.placeImg{
+.placeImg {
     width: 100%;
     height: 60%;
     overflow: hidden;
     position: relative;
 }
 
-.rating{
+.rating {
     width: 80px;
     height: 50px;
     position: relative;
@@ -285,7 +290,8 @@ a{
     align-items: center;
     justify-content: space-around;
 }
-.ratingValue{
+
+.ratingValue {
     color: white;
     width: 75%;
     padding-right: 5px;
@@ -293,23 +299,24 @@ a{
     align-items: center;
     justify-content: flex-end;
 }
-.ratingIcon{
+
+.ratingIcon {
     width: 35%;
     height: 100%;
     padding-top: 92px;
 }
 
-.ratingIcon img{
+.ratingIcon img {
     width: 100%;
 }
 
 
-.placeImg img{
+.placeImg img {
     width: 100%;
     margin-top: -60px;
 }
 
-.placeDetails{
+.placeDetails {
     height: 40%;
     width: 100%;
     /* background-color: red; */
@@ -318,7 +325,7 @@ a{
     justify-content: space-around;
 }
 
-.placeName{
+.placeName {
     width: 70%;
     height: 90%;
     /* background-color: purple; */
@@ -328,18 +335,18 @@ a{
     padding-top: 15px;
 }
 
-.placeLocation{
+.placeLocation {
     color: #91A2A3;
     font-family: BerlinSansFBRegular;
 }
 
-.placeHeading{
+.placeHeading {
     font-family: almaMono;
     font-size: 20px;
     color: #176150;
 }
 
-.placeInfo{
+.placeInfo {
     width: 20%;
     height: 90%;
     display: flex;
@@ -347,7 +354,8 @@ a{
     align-items: center;
 }
 
-.placeDif, .placeLength{
+.placeDif,
+.placeLength {
     width: 100%;
     height: 40%;
     display: flex;
@@ -355,18 +363,19 @@ a{
     justify-content: space-between;
 }
 
-.placeLenIcon img{
+.placeLenIcon img {
     width: 60%;
 }
 
-.placeLenIcon{
+.placeLenIcon {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-left: 5px;
 }
 
-.placeDifVal, .placeDifIcon{
+.placeDifVal,
+.placeDifIcon {
     width: 45%;
     height: 100%;
     display: flex;
@@ -376,29 +385,29 @@ a{
     font-family: BerlinSansFBRegular;
 }
 
-.placeDifIcon div{
+.placeDifIcon div {
     width: 50%;
     height: 50%;
     border-radius: 50%;
 }
 
-.easy{
+.easy {
     background-color: #176150;
 }
 
-.medium{
+.medium {
     background-color: #CD6A38;
 }
 
-.hard{
+.hard {
     background-color: #A50203;
 }
 
-.placeLength{
+.placeLength {
     margin-top: 5px;
 }
 
-.createFormWrap{
+.createFormWrap {
     width: 100%;
     padding: 15px;
     display: flex;
@@ -407,7 +416,7 @@ a{
     margin-bottom: 100px;
 }
 
-.createFormWrap form{
+.createFormWrap form {
     width: 50%;
     height: 900px;
     border-radius: 25px;
@@ -419,7 +428,7 @@ a{
 }
 
 
-.createFormWrap form input{
+.createFormWrap form input {
     width: 350px;
     height: 50px;
     font-size: 25px;
@@ -428,33 +437,33 @@ a{
     color: #176150;
 }
 
-.createFormWrap form textarea{
+.createFormWrap form textarea {
     outline: none;
     resize: none;
     border: none;
     border-bottom: 2px solid #176150;
 }
 
-.selectWrap{
+.selectWrap {
     width: 350px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.selectWrap select{
+.selectWrap select {
     border: none;
     outline: none;
     border-bottom: solid 2px #176150;
 }
 
-.showWrap{
+.showWrap {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.showHead{
+.showHead {
     font-family: almaMono;
     color: #176150;
     font-size: 35px;
@@ -462,7 +471,7 @@ a{
     border-bottom: 2px solid #176150;
 }
 
-.showDet{
+.showDet {
     width: 95%;
     display: flex;
     justify-content: space-between;
@@ -471,7 +480,7 @@ a{
     margin-bottom: 100px;
 }
 
-.showQuick{
+.showQuick {
     width: 30%;
     height: fit-content;
     border-radius: 25px;
@@ -481,14 +490,15 @@ a{
     flex-direction: column;
     justify-content: space-around;
 }
-.showQuick h1{
+
+.showQuick h1 {
     text-align: center;
     font-size: 20px;
     font-family: almaMono;
     color: #176150;
 }
 
-.showArticle{
+.showArticle {
     width: 65%;
     padding: 20px;
     display: flex;
@@ -497,7 +507,7 @@ a{
     border-right: 2px solid #176150;
 }
 
-.innerItem{
+.innerItem {
     margin: 2px;
     display: flex;
     align-items: center;
@@ -506,55 +516,57 @@ a{
     color: gray;
 }
 
-.innerItem img{
+.innerItem img {
     width: 20px;
 }
 
 
-.articleNav{
+.articleNav {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
-.articleNav a{
+.articleNav a {
     margin: 10px;
 }
 
-.editBut{
+.editBut {
     border-bottom: 2px solid #176150;
 }
 
-.remBut{
+.remBut {
     border-bottom: 2px solid #A50203;
 }
 
-.remBut:hover{
+.remBut:hover {
     color: #A50203;
 }
-.editBut:hover{
+
+.editBut:hover {
     color: #0d4638;
     border-bottom: 2px solid #0d4638;
 }
 
-.myArticle{
+.myArticle {
     font-family: BerlinSansFBRegular;
     width: 100%;
     padding: 15px;
     margin-top: 15px;
 }
 
-.subHead{
+.subHead {
     font-family: almaMono;
     font-size: 25px;
     font-weight: bold;
 }
-.art{
+
+.art {
     margin-bottom: 30px;
 }
 
-.mobilePreview{
+.mobilePreview {
     width: 100%;
     padding: 25px;
     display: flex;
@@ -564,7 +576,7 @@ a{
     margin-bottom: 75px;
 }
 
-.previewItem{
+.previewItem {
     width: 350px;
     box-shadow: 2px 2px 10px gray;
     margin-bottom: 35px;
@@ -572,18 +584,18 @@ a{
     border-radius: 25px;
 }
 
-.previewItem img{
+.previewItem img {
     width: 100%;
 }
 
-.downloadCover{
+.downloadCover {
     height: 800px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.downloadPre{
+.downloadPre {
     width: 350px;
     height: fit-content;
     box-shadow: 2px 2px 10px gray;
@@ -591,7 +603,7 @@ a{
     overflow: hidden;
 }
 
-.downloadDet{
+.downloadDet {
     width: 600px;
     height: fit-content;
     display: flex;
@@ -600,27 +612,27 @@ a{
     justify-content: center;
 }
 
-.downloadHead{
+.downloadHead {
     color: white;
     font-family: almaMono;
     font-size: 40px;
     margin-bottom: 35px;
 }
 
-.downIconWrap{
+.downIconWrap {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 
-.downIconWrap div img{
+.downIconWrap div img {
     width: 200px;
     margin: 8px;
     cursor: pointer;
 }
 
-#aboutDesc{
+#aboutDesc {
     width: 70%;
     font-family: BerlinSansFBRegular;
     color: gray;
@@ -628,13 +640,13 @@ a{
     margin: auto;
 }
 
-#profile_cover{
+#profile_cover {
     height: 500px;
-    position:relative;
+    position: relative;
     overflow: hidden;
 }
 
-#profile_cover img{
+#profile_cover img {
     width: 100%;
     position: absolute;
     top: -200px;
@@ -642,105 +654,111 @@ a{
 
 
 @media only screen and (max-width: 768px) {
-    header{
+    header {
         flex-direction: column;
         padding: 15px;
         height: 125px;
         font-size: 10px;
     }
 
-    .downloadCover{
+    .downloadCover {
         flex-direction: column;
         margin-bottom: 100px;
         padding: 50px;
     }
-    .downloadPre{
+
+    .downloadPre {
         margin-bottom: 30px;
     }
 
-    .placeCont{
+    .placeCont {
         width: 340px;
     }
 
-    .showDet{
+    .showDet {
         width: 100%;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .placeHeading{
+    .placeHeading {
         font-size: 18px;
     }
 
-    #detailPreview{
+    #detailPreview {
         height: 400px;
     }
 
-    #regForm{
+    #regForm {
         width: 100%;
         height: 500px;
     }
 
-    #formCont{
+    #formCont {
         width: 90%;
         margin-bottom: 100px;
     }
-    #preview{
+
+    #preview {
         display: none;
     }
 
-    #regWrap{
+    #regWrap {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .createFormWrap form{
+    .createFormWrap form {
         width: 90%;
     }
-    .showArticle{
+
+    .showArticle {
         margin: 15px;
         width: 100%;
     }
-    .showQuick{
-        width: 75%;
-    } 
 
-    #control{
+    .showQuick {
+        width: 75%;
+    }
+
+    #control {
         width: 100%;
         justify-content: space-around;
     }
 
-    #detailPreview{
+    #detailPreview {
         height: 250px;
         overflow: hidden;
         position: relative;
     }
-    
-    #detailPreview img{
+
+    #detailPreview img {
         width: 100%;
         position: absolute;
         top: -10px;
     }
 
-    #logo{
+    #logo {
         justify-content: center;
     }
-    #control nav{
+
+    #control nav {
         width: 100%;
         align-items: center;
         justify-content: center;
     }
 
-    #profile_cover{
+    #profile_cover {
         height: 200px;
     }
-    #profile_cover img{
+
+    #profile_cover img {
         top: -50px;
     }
 
-    #control nav a{
+    #control nav a {
         width: 100%;
     }
 }
